@@ -3,7 +3,7 @@
 An interactive web application that combines **AI-based summarization of medical reports** with **fake health news detection**. Built using **Streamlit**, **Hugging Face Transformers**, and **Python**, the app provides an enhanced user experience in summarizing clinical documents and verifying healthcare information authenticity.
 
 ## 🚀 Live Demo
-👉 [Insert your deployed app URL here]
+👉 [(https://medreport-fakenews-detection-jvhrdhlujpsyptmrvchcpw.streamlit.app/)]
 
 ---
 
