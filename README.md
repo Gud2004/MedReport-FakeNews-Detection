@@ -32,24 +32,32 @@ An interactive web application that combines **AI-based summarization of medical
 | Environment  | Python, Virtual Environment                |
 
 ---
+### ⚙️ Setup Instructions
 
-## ⚙️ Setup Instructions
-
-### Step 1 – Clone the Repository
+```bash
+# Step 1 – Clone the Repository
 git clone https://github.com/your-username/AI-Medical-Report-Summarization.git
 cd AI-Medical-Report-Summarization
-Step 2 – Create & Activate Virtual Environment
-Windows:
+
+# Step 2 – Create & Activate Virtual Environment
+
+# Windows
 python -m venv .venv
 .venv\Scripts\activate
-macOS/Linux:
+
+# macOS/Linux
 python3 -m venv .venv
 source .venv/bin/activate
-Step 3 – Install Dependencies
+
+# Step 3 – Install Dependencies
 pip install -r requirements.txt
-Step 4 – Run the Application
+
+# Step 4 – Run the Application
 streamlit run app.py
-🔗 Access the app at: http://localhost:8501
+
+# Access the app at:
+# http://localhost:8501
+
 
 🎯 Example Use Cases
 🩺 Medical Report Summarization
