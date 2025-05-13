@@ -1,68 +1,74 @@
-📄 AI-Powered PDF Chatbot
+ AI-Powered Medical Report Summarization & Fake News Detection
+An interactive web application that combines AI-powered summarization of medical reports and fake health news detection to enhance the user experience and healthcare content verification.
 
-An interactive PDF-based chatbot application that allows users to ask questions about uploaded documents. Built with LangChain, Streamlit, and LLMs like Llama 3, it uses vector embeddings to understand and answer queries based on document context.
+Built with Streamlit, Hugging Face Transformers, and Python, this project leverages T5 for medical report summarization and BART for fake news detection.
 
 🚀 Demo Link
-Check out the live demo of this project here
+Check out the live demo of this project here.
 
 🚀 Features
-🧠 Ask questions about the content of one or more PDF files
+🧠 Summarize Medical Reports
 
-⚡ Fast responses using LangChain and Groq's Llama 3 API
+Input detailed medical documents and get a summarized version with essential information.
 
-🔍 Context-aware answers powered by Retrieval-Augmented Generation (RAG)
+⚡ Fake Health News Detection
 
-🧾 Shows document source and page references
+Classify health-related news articles as Real or Fake using advanced NLP models.
 
-📂 Upload multiple PDFs and process them with real-time feedback
+🔍 Confidence Scores
 
-🧠 Uses Google Generative AI for embeddings
+Provides a confidence score for both the summarization and the fake news classification.
 
-🗂️ Maintains full chat history during the session
+🧾 Interactive Interface
+
+Simple, user-friendly Streamlit UI to easily interact with the app.
 
 🛠️ Tech Stack
 Layer	Technology/Tool
 Frontend	Streamlit
-Backend	LangChain, FAISS, PyPDFLoader
-Embeddings	Google Generative AI Embeddings
-LLM	ChatGroq (Llama3-8b-8192)
-Environment	Python, .env, tempfile, os
+NLP Models	Hugging Face Transformers (T5, BART)
+Environment	Python, Virtual Environment
 
 🚀 Setup Instructions
 Step 1 – Clone the Repository
-
 bash
 Copy code
-git clone https://github.com/Gud2004/project12.git
-cd project12
+git clone https://github.com/your-username/AI-Medical-Report-Summarization.git
+cd AI-Medical-Report-Summarization
 Step 2 – Create & Activate a Virtual Environment
-
 For Windows:
 
 bash
 Copy code
-python -m venv venv
-venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate
 For macOS/Linux:
 
 bash
 Copy code
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 Step 3 – Install Dependencies
-
 bash
 Copy code
 pip install -r requirements.txt
-Step 4 – Set Up Environment Variables
-
-GOOGLE_API_KEY=your_google_api_key
-
-GROQ_API_KEY=your_groq_api_key
-
-Step 5 – Run the Application
-
+Step 4 – Run the Application
 bash
 Copy code
 streamlit run app.py
-✍️ Author: Sanskriti Gupta
+After running this, you can view the app at http://localhost:8501.
+
+🎯 Example Use Cases
+1. Medical Report Summarization
+Input: Long, detailed medical reports.
+
+Output: Concise summaries with key medical insights.
+
+2. Fake Health News Detection
+Input: Health-related news articles.
+
+Output: Classification as REAL or FAKE, along with confidence scores.
+
+📞 Contact
+Author: Sanskriti Gupta
+
